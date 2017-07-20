@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SaveOurSoul</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="slide_1_title">Hello Penangites</string>
+    <string name="slide_1_desc">An emergency apps for all Penangites!</string>
+    <string name="slide_2_desc">Save your soul in just a click!</string>
+
+</resources>

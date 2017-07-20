@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.joliekoik.saveoursoul.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Hospital"
+            android:drawableTop="@drawable/ic_hospital"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Police Station"
+            android:drawableTop="@drawable/ic_police"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Workshop"
+            android:drawableTop="@drawable/ic_car"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Fire Station"
+            android:drawableTop="@drawable/ic_fire"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOS"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
